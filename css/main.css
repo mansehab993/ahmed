@@ -2,7 +2,7 @@
 :root {
     --main-color: #055052;
     --second-color: #53B8BB;
-    --third-color: #f3f2c9;
+    --third-color: #fdfdea;
 }
 /* end variables */
 
@@ -163,6 +163,7 @@ span.icon span:last-child {
 .landing h3 {
     font-size: 50px;
     text-align: center;
+    
 }
 .landing p {
     font-size: 19px;
@@ -202,7 +203,7 @@ span.icon span:last-child {
     filter: grayscale(1);
 }
 .education  .edus {
-    margin-top: 100px;
+    margin-top: 75px;
     display: grid;
     grid-template-columns: repeat(auto-fill,minmax(500px,1fr));
     gap: 20px;
@@ -210,10 +211,9 @@ span.icon span:last-child {
 }
 @media (max-width:768px){
     .education  .edus{
-        grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
+        grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
     }
     
-
 }
 .education .edus .logo {
     text-align: center;
@@ -223,13 +223,62 @@ span.icon span:last-child {
     width: 200px;
 }
 .education .edus .edu {
-
     background-color: var(--third-color);
     padding: 50px;
 }
 .education .edus .edu h3 {
     text-align: center;
+
 }
 .education .edus  .conc {
     margin-top: 45px;
+}
+.education {
+    margin-top: 70px;
+}
+.courses .container .courses-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+    gap: 20px;
+    margin-top: 100px;
+
+}
+.courses .container .courses-content .course {
+    text-align: center;
+    background-color: var(--third-color);
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    box-sizing: content-box;
+    color: var(--main-color);
+}
+
+.courses .container .courses-content .image img {
+    width: 140px;
+
+}
+.courses {
+    margin-top: 70px;
+}
+.contact .container .contact{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
+    gap: 55px;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.linkedin a {
+    font-size: 50px;
+    text-align: center;
+}
+.linkedin {
+    text-align: center;
+}
+.contact .container .contact h3 {
+    color: var(--main-color);
+}
+.contact .container {
+    margin-top: 100px;
 }
