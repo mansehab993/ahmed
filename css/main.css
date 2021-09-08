@@ -272,6 +272,7 @@ span.icon span:last-child {
 .linkedin a {
     font-size: 50px;
     text-align: center;
+    color: var(--main-color);
 }
 .linkedin {
     text-align: center;
@@ -281,4 +282,9 @@ span.icon span:last-child {
 }
 .contact .container {
     margin-top: 100px;
+
+}
+.email a {
+    text-decoration: none;
+    color: var(--main-color);
 }
