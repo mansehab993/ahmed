@@ -225,6 +225,7 @@ span.icon span:last-child {
 .education .edus .edu {
 
     background-color: var(--third-color);
+    padding: 50px;
 }
 .education .edus .edu h3 {
     text-align: center;
