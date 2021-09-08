@@ -288,3 +288,14 @@ span.icon span:last-child {
     text-decoration: none;
     color: var(--main-color);
 }
+.cv .container {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.cv .container a {
+    text-decoration: none;
+    font-weight: light;
+    font-size: 40px;
+    color: var(--main-color);
+}
